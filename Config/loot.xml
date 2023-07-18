@@ -1,0 +1,20 @@
+<configs>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupCraftingUncommon']">
+		<item name="resourceLeadspelter" count="5,20"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupCraftingRare']">
+		<item name="resourceLeadspelter" count="5,20"/>
+		<item name="resourcePlasteelPrimer" count="1,5"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupBuildingUncommon']">
+		<item name="resourceLeadspelter" count="5,20"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupBuildingRare']">
+		<item name="resourcePlasteelPrimer" count="1,5"/>
+	</append>
+
+</configs>

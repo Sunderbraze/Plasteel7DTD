@@ -1,0 +1,33 @@
+<configs>
+	
+	<append xpath="/items">
+		<item name="resourcePlasteelPrimer">
+			<property name="CustomIcon" value="resourceSnowBall"/>
+			<property name="CustomIconTint" value="32,32,32"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Msteel"/>
+			<property name="Stacknumber" value="500"/> <!-- STK resource -->
+			<property name="EconomicValue" value="200"/>
+			<property name="Group" value="Resources,Chemicals,CFChemicals"/>
+		</item>
+	</append>
+	
+	<append xpath="/items">
+		<item name="resourceLeadspelter">
+			<property name="CustomIcon" value="resourceSilverNugget"/>
+			<property name="CustomIconTint" value="32,32,32"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Msteel"/>
+			<property name="Stacknumber" value="500"/> <!-- STK resource -->
+			<property name="EconomicValue" value="50"/>
+			<property name="Group" value="Resources,Chemicals,CFChemicals"/>
+		</item>
+	</append>
+
+</configs>

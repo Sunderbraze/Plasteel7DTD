@@ -1,0 +1,8 @@
+Key,English
+materialMplasteel_shapes,Plasteel
+plasteelShapes:VariantHelper,Plasteel
+plasteelBlockGroupDesc,Plasteel blocks are even tougher than steel and have even more explosion resistance.
+resourcePlasteelPrimer,Plasteel Primer
+resourcePlasteelPrimerDesc,Plasteel Primer is a substance that bonds with steel and hardens it into plasteel.
+resourceLeadspelter,Leadspelter
+resourceLeadspelterDesc,"Leaded spelter is a precursor for plasteel comprised of 40% iron, 30% lead, 20% copper, and 10% zinc. It is smelted at the forge using scrap iron, brass, lead, and clay."

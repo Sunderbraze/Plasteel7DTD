@@ -1,0 +1,58 @@
+<configs>
+	
+	<append xpath="/blocks">
+		<block name="plasteelMaster">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="plasteelBlockGroupDesc"/>
+			<property name="Material" value="Mplasteel"/>
+			<property name="DisplayType" value="blockHardened"/>
+			<property name="Texture" value="55"/>
+			<property name="EconomicValue" value="250"/>
+			<property name="PassThroughDamage" value="true"/>
+			<property class="RepairItems">
+				<property name="resourcePlasteelPrimer" value="1"/>
+			</property>
+			<property name="UpgradeSound" value="place_block_metal"/>
+			<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="SortOrder1" value="M090"/>
+			<property name="SortOrder2" value="0000"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="FilterTags" value="MC_building"/>
+		</block>
+	</append>
+	
+	<append xpath="/blocks">
+		<block name="plasteelShapes" shapes="All">
+			<property name="DescriptionKey" value="plasteelBlockGroupDesc"/>
+			<property name="DisplayType" value="blockHardened"/>
+			<property name="Material" value="Mplasteel_shapes"/>
+			<property name="Shape" value="New"/>
+			<property name="Texture" value="55"/>
+			<property name="UiBackgroundTexture" value="55"/>
+			<property name="EconomicValue" value="250"/>
+			<property class="RepairItems">
+				<property name="resourcePlasteelPrimer" value="1"/>
+			</property>
+			<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="UpgradeSound" value="place_block_metal"/>
+			<property name="SortOrder1" value="S040"/>
+			<!-- SortOrder2 is assigned in code to keep all of the shapes in the same order for each material -->
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="FilterTags" value="MC_Shapes"/>
+		</block>
+	</append>
+	
+	<append xpath="/blocks/block[@name='steelShapes']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="plasteelShapes"/>
+			<property name="Item" value="resourcePlasteelPrimer"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+	</append>
+	
+</configs>
